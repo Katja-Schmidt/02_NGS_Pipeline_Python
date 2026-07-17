@@ -216,3 +216,51 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================
+# Bioinformatics project
+# ==========================
+
+# VS Code
+.vscode/
+
+# VS Code Local History
+.history/
+
+# Temporary STAR files
+_STARtmp/
+*_STARtmp/
+
+# Python backup files
+pipeline_v1.py
+
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# Count files (optional)
+# *.counts
+
+# Large indexes
+genome/star_index/
+
+# Pipeline outputs
+results/fastqc/
+results/fastp/
+results/bam/
+results/counts/
+results/multiqc/
+
+# Keep directory structure
+!results/gitkeep
+
+# Logs
+logs/*
+!logs/gitkeep
