@@ -252,11 +252,8 @@ pipeline_v1.py
 genome/star_index/
 
 # Pipeline outputs
-results/fastqc/
-results/fastp/
 results/bam/
 results/counts/
-results/multiqc/
 
 # Keep directory structure
 !results/gitkeep
@@ -264,3 +261,10 @@ results/multiqc/
 # Logs
 logs/*
 !logs/gitkeep
+
+# MultiQC duplicate reports
+multiqc_report_*.html
+
+# OS files
+.DS_Store
+Thumbs.db
