@@ -1,1 +1,20 @@
+# Number of CPU threads
+threads: 8
 
+# Required software
+fastqc: fastqc
+fastp: fastp
+star: STAR
+samtools: samtools
+featurecounts: featureCounts
+multiqc: multiqc
+
+# Reference genome
+genomeDir: genome/star_index
+gtf: genome/gencode.v49.primary_assembly.annotation.gtf
+
+# Input samples
+samples:
+  SRR11365252:
+    R1: data/SRR11365252_1.fastq
+    R2: data/SRR11365252_2.fastq
