@@ -213,4 +213,10 @@ Planned improvements include:
 
 # Author
 
+Katarzyna Zielińska
+
+Bioinformatics Portfolio
+
+2026
+
 Created as part of a Bioinformatics Portfolio project focused on RNA-seq data analysis using Python and Linux.
